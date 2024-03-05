@@ -26,7 +26,7 @@ html, body {
     top: 57vh;
     left: 0px;
     width: 100%;
-    gap: 8px;
+    gap: 12px;
 }
 
 #hello {
@@ -36,7 +36,7 @@ html, body {
     left: 0px;
     width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 #hello > a {
@@ -52,14 +52,13 @@ html, body {
     width: 100%;
     text-align: center;
     color: #FDFFFF;
-    font-size: 48px;
+    font-size: 64px;
 }
 
 #tags > a > img {
-    gap: 4px;
-    width: 24px;
+    width: 36px;
 }
 
 #x-tag > img {
-    height: 22px;
+    height: 32px;
 }
