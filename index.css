@@ -76,3 +76,28 @@ html, body {
 #x-tag > img {
     height: 32px;
 }
+
+@media screen and (max-device-width: 600px) {
+    #hello {
+        top: 15vh;
+        font-size: 48px;
+    }
+
+    #tags {
+        top: 60vh;
+        gap: 24px;
+    }
+
+    #tags > a > img {
+        width: 64px;
+    }
+
+    #x-tag > img {
+        height: 56px;
+    }
+
+    #name {
+        top: 70vh;
+        font-size: 96px;
+    }
+}
